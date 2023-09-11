@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qe.project.testcases.warehousepage_Test">
+        <methods>
+          <include name="clickBCL"/>
+          <include name="damageCertificate"/>
+          <include name="damageUpload1"/>
+          <include name="selectBCLItem"/>
+          <include name="tearDown"/>
+          <include name="clickOnDispositionlinkTest"/>
+          <include name="clickOnDispositionlinkTest"/>
+          <include name="addDataField"/>
+          <include name="clickBCLUpdate"/>
+          <include name="parchaseInvoice"/>
+          <include name="selectData2"/>
+          <include name="parchaseUpdate"/>
+          <include name="BCLSelcetData1"/>
+        </methods>
+      </class> <!-- com.qe.project.testcases.warehousepage_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

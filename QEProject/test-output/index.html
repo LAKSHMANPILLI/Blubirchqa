@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Blubirch\Downloads\QEProject\QEProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">60 methods, 1 failed,   59 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickSubmitOK">clickSubmitOK</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="BCLSelcetData1">BCLSelcetData1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.Logout_InTest" class="method navigator-link" hash-for-method="Logout_Test">Logout_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="addDataField">addDataField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandApplyFilter">brandApplyFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandApprovalReferanceNo">brandApprovalReferanceNo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandCallLogFilter">brandCallLogFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandDateOkInspection">brandDateOkInspection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandDatecalendorInpsection">brandDatecalendorInpsection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandDecision">brandDecision</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandDecisionCreditNo">brandDecisionCreditNo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandDecisionOkbutton">brandDecisionOkbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandDecisionRTV">brandDecisionRTV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandDecisionSubsmit">brandDecisionSubsmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandFieldFilter">brandFieldFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandInspectionDate1">brandInspectionDate1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandInspectionOkbutton">brandInspectionOkbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="brandInspectionReport">brandInspectionReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="calendorOkBclTickets">calendorOkBclTickets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="clickBCL">clickBCL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="clickBCLUpdate">clickBCLUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickInvoice">clickInvoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="clickOnDispositionlinkTest">clickOnDispositionlinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="clickOnDispositionlinkTest1">clickOnDispositionlinkTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickOnOK">clickOnOK</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickOnRTV">clickOnRTV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickOndispatch">clickOndispatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickOnreturndate">clickOnreturndate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickOnselect">clickOnselect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickOnselectdata">clickOnselectdata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickOnupdate">clickOnupdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickdocumenttype">clickdocumenttype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clickreturnmethod">clickreturnmethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseRTV_Test" class="method navigator-link" hash-for-method="clicksubmit">clicksubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="damageCertificate">damageCertificate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="damageUpload1">damageUpload1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="decisionCreditNoteAmount">decisionCreditNoteAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.Sign_InTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.Logout_InTest" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="parchaseInvoice">parchaseInvoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="parchaseUpdate">parchaseUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="pendingBclTickets">pendingBclTickets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="pendingDecision">pendingDecision</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="pendingInformationOK">pendingInformationOK</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="pendingInspection1">pendingInspection1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="selectBCLItem">selectBCLItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="selectBclTickets">selectBclTickets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="selectCalendorBclTickets">selectCalendorBclTickets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="selectData2">selectData2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="selectInspection">selectInspection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="selectPendingDecision">selectPendingDecision</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="submitBCLTicketsOkbutton">submitBCLTicketsOkbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="submitBclTickets">submitBclTickets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="submitBrandInspection">submitBrandInspection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="submitFirst">submitFirst</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="ticketDateBclTickets">ticketDateBclTickets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="ticketNoBclTickets">ticketNoBclTickets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="updateBclTickets">updateBclTickets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="updateInspection">updateInspection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qe.project.testcases.warehouseBCL_Test" class="method navigator-link" hash-for-method="updatePendingDecision">updatePendingDecision</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qe.project.testcases.warehouseRTV_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSubmitOK">
+                  </a> <!-- clickSubmitOK -->
+                  <span class="method-name">clickSubmitOK</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Ok&apos;]&quot;}
+  (Session info: chrome=116.0.5845.180)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-RVJV18D&apos;, ip: &apos;192.168.0.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\Blubirch\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61128}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ad5838214e41aa81bd30aa0f5300179
+*** Element info: {Using=xpath, value=//span[text()=&apos;Ok&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at com.qe.project.pages.warehouseRTV.submitOkbutton(warehouseRTV.java:236)
+	at com.qe.project.testcases.warehouseRTV_Test.clickSubmitOK(warehouseRTV_Test.java:152)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qe.project.testcases.Sign_InTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qe.project.testcases.warehouseBCL_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BCLSelcetData1">
+                  </a> <!-- BCLSelcetData1 -->
+                  <span class="method-name">BCLSelcetData1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDataField">
+                  </a> <!-- addDataField -->
+                  <span class="method-name">addDataField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandApplyFilter">
+                  </a> <!-- brandApplyFilter -->
+                  <span class="method-name">brandApplyFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandApprovalReferanceNo">
+                  </a> <!-- brandApprovalReferanceNo -->
+                  <span class="method-name">brandApprovalReferanceNo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandCallLogFilter">
+                  </a> <!-- brandCallLogFilter -->
+                  <span class="method-name">brandCallLogFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandDateOkInspection">
+                  </a> <!-- brandDateOkInspection -->
+                  <span class="method-name">brandDateOkInspection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandDatecalendorInpsection">
+                  </a> <!-- brandDatecalendorInpsection -->
+                  <span class="method-name">brandDatecalendorInpsection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandDecision">
+                  </a> <!-- brandDecision -->
+                  <span class="method-name">brandDecision</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandDecisionCreditNo">
+                  </a> <!-- brandDecisionCreditNo -->
+                  <span class="method-name">brandDecisionCreditNo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandDecisionOkbutton">
+                  </a> <!-- brandDecisionOkbutton -->
+                  <span class="method-name">brandDecisionOkbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandDecisionRTV">
+                  </a> <!-- brandDecisionRTV -->
+                  <span class="method-name">brandDecisionRTV</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandDecisionSubsmit">
+                  </a> <!-- brandDecisionSubsmit -->
+                  <span class="method-name">brandDecisionSubsmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandFieldFilter">
+                  </a> <!-- brandFieldFilter -->
+                  <span class="method-name">brandFieldFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandInspectionDate1">
+                  </a> <!-- brandInspectionDate1 -->
+                  <span class="method-name">brandInspectionDate1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandInspectionOkbutton">
+                  </a> <!-- brandInspectionOkbutton -->
+                  <span class="method-name">brandInspectionOkbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandInspectionReport">
+                  </a> <!-- brandInspectionReport -->
+                  <span class="method-name">brandInspectionReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="calendorOkBclTickets">
+                  </a> <!-- calendorOkBclTickets -->
+                  <span class="method-name">calendorOkBclTickets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickBCL">
+                  </a> <!-- clickBCL -->
+                  <span class="method-name">clickBCL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickBCLUpdate">
+                  </a> <!-- clickBCLUpdate -->
+                  <span class="method-name">clickBCLUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnDispositionlinkTest">
+                  </a> <!-- clickOnDispositionlinkTest -->
+                  <span class="method-name">clickOnDispositionlinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnDispositionlinkTest1">
+                  </a> <!-- clickOnDispositionlinkTest1 -->
+                  <span class="method-name">clickOnDispositionlinkTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="damageCertificate">
+                  </a> <!-- damageCertificate -->
+                  <span class="method-name">damageCertificate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="damageUpload1">
+                  </a> <!-- damageUpload1 -->
+                  <span class="method-name">damageUpload1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="decisionCreditNoteAmount">
+                  </a> <!-- decisionCreditNoteAmount -->
+                  <span class="method-name">decisionCreditNoteAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parchaseInvoice">
+                  </a> <!-- parchaseInvoice -->
+                  <span class="method-name">parchaseInvoice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parchaseUpdate">
+                  </a> <!-- parchaseUpdate -->
+                  <span class="method-name">parchaseUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pendingBclTickets">
+                  </a> <!-- pendingBclTickets -->
+                  <span class="method-name">pendingBclTickets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pendingDecision">
+                  </a> <!-- pendingDecision -->
+                  <span class="method-name">pendingDecision</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pendingInformationOK">
+                  </a> <!-- pendingInformationOK -->
+                  <span class="method-name">pendingInformationOK</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pendingInspection1">
+                  </a> <!-- pendingInspection1 -->
+                  <span class="method-name">pendingInspection1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectBCLItem">
+                  </a> <!-- selectBCLItem -->
+                  <span class="method-name">selectBCLItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectBclTickets">
+                  </a> <!-- selectBclTickets -->
+                  <span class="method-name">selectBclTickets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCalendorBclTickets">
+                  </a> <!-- selectCalendorBclTickets -->
+                  <span class="method-name">selectCalendorBclTickets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectData2">
+                  </a> <!-- selectData2 -->
+                  <span class="method-name">selectData2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectInspection">
+                  </a> <!-- selectInspection -->
+                  <span class="method-name">selectInspection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPendingDecision">
+                  </a> <!-- selectPendingDecision -->
+                  <span class="method-name">selectPendingDecision</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitBCLTicketsOkbutton">
+                  </a> <!-- submitBCLTicketsOkbutton -->
+                  <span class="method-name">submitBCLTicketsOkbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitBclTickets">
+                  </a> <!-- submitBclTickets -->
+                  <span class="method-name">submitBclTickets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitBrandInspection">
+                  </a> <!-- submitBrandInspection -->
+                  <span class="method-name">submitBrandInspection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitFirst">
+                  </a> <!-- submitFirst -->
+                  <span class="method-name">submitFirst</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketDateBclTickets">
+                  </a> <!-- ticketDateBclTickets -->
+                  <span class="method-name">ticketDateBclTickets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ticketNoBclTickets">
+                  </a> <!-- ticketNoBclTickets -->
+                  <span class="method-name">ticketNoBclTickets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBclTickets">
+                  </a> <!-- updateBclTickets -->
+                  <span class="method-name">updateBclTickets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateInspection">
+                  </a> <!-- updateInspection -->
+                  <span class="method-name">updateInspection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePendingDecision">
+                  </a> <!-- updatePendingDecision -->
+                  <span class="method-name">updatePendingDecision</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qe.project.testcases.Logout_InTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout_Test">
+                  </a> <!-- Logout_Test -->
+                  <span class="method-name">Logout_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qe.project.testcases.warehouseRTV_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickInvoice">
+                  </a> <!-- clickInvoice -->
+                  <span class="method-name">clickInvoice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnOK">
+                  </a> <!-- clickOnOK -->
+                  <span class="method-name">clickOnOK</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnRTV">
+                  </a> <!-- clickOnRTV -->
+                  <span class="method-name">clickOnRTV</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOndispatch">
+                  </a> <!-- clickOndispatch -->
+                  <span class="method-name">clickOndispatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnreturndate">
+                  </a> <!-- clickOnreturndate -->
+                  <span class="method-name">clickOnreturndate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnselect">
+                  </a> <!-- clickOnselect -->
+                  <span class="method-name">clickOnselect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnselectdata">
+                  </a> <!-- clickOnselectdata -->
+                  <span class="method-name">clickOnselectdata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnupdate">
+                  </a> <!-- clickOnupdate -->
+                  <span class="method-name">clickOnupdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickdocumenttype">
+                  </a> <!-- clickdocumenttype -->
+                  <span class="method-name">clickdocumenttype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickreturnmethod">
+                  </a> <!-- clickreturnmethod -->
+                  <span class="method-name">clickreturnmethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicksubmit">
+                  </a> <!-- clicksubmit -->
+                  <span class="method-name">clicksubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Blubirch\Downloads\QEProject\QEProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qe.project.testcases.Sign_InTest&quot;/&gt;
+      &lt;class name=&quot;com.qe.project.testcases.warehouseBCL_Test&quot;/&gt;
+      &lt;class name=&quot;com.qe.project.testcases.warehouseRTV_Test&quot;/&gt;
+      &lt;class name=&quot;com.qe.project.testcases.Logout_InTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(60);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickSubmitOK')
+data.setCell(0, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(0, 3, 50104);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'brandInspectionReport')
+data.setCell(1, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(1, 3, 9112);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'damageUpload1')
+data.setCell(2, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(2, 3, 7352);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickOnDispositionlinkTest')
+data.setCell(3, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(3, 3, 5181);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickOnRTV')
+data.setCell(4, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(4, 3, 4942);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickBCL')
+data.setCell(5, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(5, 3, 4766);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'brandFieldFilter')
+data.setCell(6, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(6, 3, 4681);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'submitFirst')
+data.setCell(7, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(7, 3, 4255);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTest')
+data.setCell(8, 2, 'com.qe.project.testcases.Sign_InTest')
+data.setCell(8, 3, 3571);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'brandDecisionOkbutton')
+data.setCell(9, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(9, 3, 2387);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'brandDecisionCreditNo')
+data.setCell(10, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(10, 3, 2322);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'brandApplyFilter')
+data.setCell(11, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(11, 3, 2300);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'pendingDecision')
+data.setCell(12, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(12, 3, 2202);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickBCLUpdate')
+data.setCell(13, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(13, 3, 2151);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'brandDateOkInspection')
+data.setCell(14, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(14, 3, 2139);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'updatePendingDecision')
+data.setCell(15, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(15, 3, 2123);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'submitBCLTicketsOkbutton')
+data.setCell(16, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(16, 3, 2071);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'parchaseUpdate')
+data.setCell(17, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(17, 3, 1379);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'brandApprovalReferanceNo')
+data.setCell(18, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(18, 3, 1339);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'decisionCreditNoteAmount')
+data.setCell(19, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(19, 3, 1335);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'brandInspectionOkbutton')
+data.setCell(20, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(20, 3, 1325);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ticketNoBclTickets')
+data.setCell(21, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(21, 3, 1303);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'clickInvoice')
+data.setCell(22, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(22, 3, 1219);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ticketDateBclTickets')
+data.setCell(23, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(23, 3, 1211);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'clickOnreturndate')
+data.setCell(24, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(24, 3, 1206);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'parchaseInvoice')
+data.setCell(25, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(25, 3, 1204);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'brandDecision')
+data.setCell(26, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(26, 3, 1180);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'brandDatecalendorInpsection')
+data.setCell(27, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(27, 3, 1179);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'brandInspectionDate1')
+data.setCell(28, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(28, 3, 1173);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'pendingInformationOK')
+data.setCell(29, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(29, 3, 1163);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'pendingInspection1')
+data.setCell(30, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(30, 3, 1146);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'selectCalendorBclTickets')
+data.setCell(31, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(31, 3, 1142);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'selectBCLItem')
+data.setCell(32, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(32, 3, 1137);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'submitBrandInspection')
+data.setCell(33, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(33, 3, 1131);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'brandCallLogFilter')
+data.setCell(34, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(34, 3, 1128);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'calendorOkBclTickets')
+data.setCell(35, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(35, 3, 1127);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'updateInspection')
+data.setCell(36, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(36, 3, 1127);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'clickOnselectdata')
+data.setCell(37, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(37, 3, 1122);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Logout_Test')
+data.setCell(38, 2, 'com.qe.project.testcases.Logout_InTest')
+data.setCell(38, 3, 996);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'clickOnselect')
+data.setCell(39, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(39, 3, 675);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'BCLSelcetData1')
+data.setCell(40, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(40, 3, 388);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'selectBclTickets')
+data.setCell(41, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(41, 3, 379);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'logout')
+data.setCell(42, 2, 'com.qe.project.testcases.Logout_InTest')
+data.setCell(42, 3, 324);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'selectData2')
+data.setCell(43, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(43, 3, 272);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'clicksubmit')
+data.setCell(44, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(44, 3, 243);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'selectInspection')
+data.setCell(45, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(45, 3, 204);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'clickOnupdate')
+data.setCell(46, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(46, 3, 197);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'pendingBclTickets')
+data.setCell(47, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(47, 3, 192);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'updateBclTickets')
+data.setCell(48, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(48, 3, 182);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'addDataField')
+data.setCell(49, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(49, 3, 172);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'submitBclTickets')
+data.setCell(50, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(50, 3, 168);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'clickreturnmethod')
+data.setCell(51, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(51, 3, 162);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'brandDecisionRTV')
+data.setCell(52, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(52, 3, 162);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'damageCertificate')
+data.setCell(53, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(53, 3, 157);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'clickOnDispositionlinkTest1')
+data.setCell(54, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(54, 3, 155);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'clickOndispatch')
+data.setCell(55, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(55, 3, 151);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'clickdocumenttype')
+data.setCell(56, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(56, 3, 151);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'clickOnOK')
+data.setCell(57, 2, 'com.qe.project.testcases.warehouseRTV_Test')
+data.setCell(57, 3, 133);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'selectPendingDecision')
+data.setCell(58, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(58, 3, 132);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'brandDecisionSubsmit')
+data.setCell(59, 2, 'com.qe.project.testcases.warehouseBCL_Test')
+data.setCell(59, 3, 109);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Logined succussfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qe.project.testcases.Sign_InTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">SignIn</span>
+                <span class="method-start">7885 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qe.project.testcases.warehouseBCL_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">dispositonBCL</span>
+                <span class="method-start">7950 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qe.project.testcases.warehouseRTV_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">disposition1</span>
+                <span class="method-start">7992 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qe.project.testcases.Sign_InTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">8068 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qe.project.testcases.warehouseBCL_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickOnDispositionlinkTest</span>
+                <span class="method-start">11650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickBCL</span>
+                <span class="method-start">16838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandCallLogFilter</span>
+                <span class="method-start">21608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandFieldFilter</span>
+                <span class="method-start">22755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandApplyFilter</span>
+                <span class="method-start">27446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectBCLItem</span>
+                <span class="method-start">29750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickBCLUpdate</span>
+                <span class="method-start">30891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BCLSelcetData1</span>
+                <span class="method-start">33045 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">parchaseInvoice</span>
+                <span class="method-start">33439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">parchaseUpdate</span>
+                <span class="method-start">34649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addDataField</span>
+                <span class="method-start">36030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectData2</span>
+                <span class="method-start">36208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">damageCertificate</span>
+                <span class="method-start">36486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">damageUpload1</span>
+                <span class="method-start">36645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitFirst</span>
+                <span class="method-start">44002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pendingInformationOK</span>
+                <span class="method-start">48266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pendingBclTickets</span>
+                <span class="method-start">49435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectBclTickets</span>
+                <span class="method-start">49629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateBclTickets</span>
+                <span class="method-start">50010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ticketNoBclTickets</span>
+                <span class="method-start">50194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ticketDateBclTickets</span>
+                <span class="method-start">51499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectCalendorBclTickets</span>
+                <span class="method-start">52716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">calendorOkBclTickets</span>
+                <span class="method-start">53862 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitBclTickets</span>
+                <span class="method-start">54992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitBCLTicketsOkbutton</span>
+                <span class="method-start">55161 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pendingInspection1</span>
+                <span class="method-start">57235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectInspection</span>
+                <span class="method-start">58385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateInspection</span>
+                <span class="method-start">58591 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandInspectionDate1</span>
+                <span class="method-start">59723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandDatecalendorInpsection</span>
+                <span class="method-start">60899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandDateOkInspection</span>
+                <span class="method-start">62082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandInspectionReport</span>
+                <span class="method-start">64233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitBrandInspection</span>
+                <span class="method-start">73347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandInspectionOkbutton</span>
+                <span class="method-start">74487 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pendingDecision</span>
+                <span class="method-start">75815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectPendingDecision</span>
+                <span class="method-start">78020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updatePendingDecision</span>
+                <span class="method-start">78154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandDecision</span>
+                <span class="method-start">80281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandDecisionRTV</span>
+                <span class="method-start">81469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandApprovalReferanceNo</span>
+                <span class="method-start">81634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandDecisionCreditNo</span>
+                <span class="method-start">82974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">decisionCreditNoteAmount</span>
+                <span class="method-start">85311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandDecisionSubsmit</span>
+                <span class="method-start">86648 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">brandDecisionOkbutton</span>
+                <span class="method-start">86758 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnDispositionlinkTest1</span>
+                <span class="method-start">89146 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qe.project.testcases.warehouseRTV_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickOnRTV</span>
+                <span class="method-start">89303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnselect</span>
+                <span class="method-start">94250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnupdate</span>
+                <span class="method-start">94926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnreturndate</span>
+                <span class="method-start">95125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnselectdata</span>
+                <span class="method-start">96333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnOK</span>
+                <span class="method-start">97461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickreturnmethod</span>
+                <span class="method-start">97597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOndispatch</span>
+                <span class="method-start">97761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickdocumenttype</span>
+                <span class="method-start">97914 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickInvoice</span>
+                <span class="method-start">98066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clicksubmit</span>
+                <span class="method-start">99289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickSubmitOK</span>
+                <span class="method-start">99534 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qe.project.testcases.Logout_InTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Logout</span>
+                <span class="method-start">150014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">150020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Logout</span>
+                <span class="method-start">150346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Logout_Test</span>
+                <span class="method-start">150346 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qe.project.testcases.Sign_InTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">151421 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qe.project.testcases.warehouseRTV_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">151422 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
